@@ -1,0 +1,48 @@
+/* @tailwind base; */
+/* @tailwind components; */
+/* @tailwind utilities; */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+html, body{
+    font-family: 'Montserrat', sans-serif !important;
+
+}
+
+.icon-whats{
+    position: fixed;
+}
+
+.hero-bg-image {
+    background-image: url('../img/girl.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    filter: brightness(50%);
+    /* background-image: linear-gradient(rgba(68, 42, 214, 0.5),
+   rgba(72, 26, 224, 0.5)),url('../img/girl.jpg'); */
+}
+
+.logo{
+    width: 45%;
+    margin: -16%;
+    margin-bottom: -23%;
+    margin-left: 2px;
+    padding: 0;
+    cursor: pointer;
+
+}
+.Mlogo{
+    width: 45%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 37%;
+    cursor: pointer;
+    /* margin: -16%; */
+}
+
