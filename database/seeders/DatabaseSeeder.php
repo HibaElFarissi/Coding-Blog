@@ -15,5 +15,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // \App\Models\User::factory(10)->create();
+        // code tasneem => TSM@1221
+        // Gmail => tasneem1@gmail.com
     }
 }
